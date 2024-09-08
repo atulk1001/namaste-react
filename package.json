@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "React with CDN",
   "scripts": {
+    "start": "parcel index.html",
+    "building": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
