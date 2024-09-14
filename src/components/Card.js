@@ -13,4 +13,15 @@ const Card = (props) => {
         </div>
     );
 };
+
+export const withPromotedLabel = (Card) => {
+    return (props) => {
+        return (
+            <div> 
+                <label className="absolute bg-black text-white m-2 p-2 rounded-bl-md rounded-b-3xl shadow-slate-400">Promoted</label>
+                <Card {...props}/>
+            </div>
+        )
+    }   
+}
 export default Card;

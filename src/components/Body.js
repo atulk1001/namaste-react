@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import {Link} from "react-router-dom";
-import Card from "./Card";
+import Card, {withPromotedLabel} from "./Card";
 import Shimmer from "./Shimmer";
 import { API_URL } from "../utils/constants";
 import useOnlineStatus from "../utils/useOnlineStatus";
@@ -9,7 +9,7 @@ const Body = () => {
   const [list, setList] = useState(() => []);
   const [filteredList, setFilteredList] = useState(() => []);
   const [searchText, setSearchText] = useState("");
-
+  const PromotedLabelComponent = withPromotedLabel(Card);
   async function fetchData() {
     let data = await fetch(API_URL);
     let json = await data.json();
@@ -31,16 +31,18 @@ const Body = () => {
     setSearchText("");
   };
   const onlineStatus = useOnlineStatus();
+
   if(onlineStatus === false) {
     return <h1>Looks like you are offline. Please check you interent.</h1>
   }
   if (list.length === 0) {
     return <Shimmer />;
   }
+  
   return (
     <div className="flex flex-wrap justify-center">
       <input
-        className="p-3 m-4 w-96 border-slate-200 bg-gray-100 text-black-500 rounded-sm hover:font-semibold"
+        className="p-3 m-4 w-48 border-slate-200 bg-gray-100 text-black-500 rounded-sm hover:font-semibold lg:w-96"
         type="text"
         value={searchText}
         placeholder="KFC"
@@ -66,7 +68,7 @@ const Body = () => {
       <div className="flex justify-center flex-wrap">
         {filteredList.map((rest) => (
           <Link key={rest.id} to = {"/menu/"+rest.id}>
-          <Card key={rest.id} resData={rest} />
+          {(rest.promoted === true) ? <PromotedLabelComponent resData={rest}/> : <Card key={rest.id} resData={rest} />}
           </Link>
         ))}
       </div>

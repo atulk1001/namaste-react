@@ -8,7 +8,7 @@ const Header = () => {
         <div className="flex justify-between bg-slate-100 shadow-lg"> 
             <div className="w-28">
                 <img
-                    className="logo"
+                    className="rounded-full"
                     src={LOGO_URL}
                 />
             </div>
