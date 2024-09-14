@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
+import {Link} from "react-router-dom";
 import Card from "./Card";
-import restaurantData from "../utils/mockdata";
 import Shimmer from "./Shimmer";
 import { API_URL } from "../utils/constants";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 const Body = () => {
   const [list, setList] = useState(() => []);
@@ -10,7 +11,7 @@ const Body = () => {
   const [searchText, setSearchText] = useState("");
 
   async function fetchData() {
-    let data = await fetch("http://localhost:3000/swiggy/restaurants");
+    let data = await fetch(API_URL);
     let json = await data.json();
     setList(json);
     setFilteredList(json);
@@ -29,7 +30,10 @@ const Body = () => {
     setFilteredList(list);
     setSearchText("");
   };
-
+  const onlineStatus = useOnlineStatus();
+  if(onlineStatus === false) {
+    return <h1>Looks like you are offline. Please check you interent.</h1>
+  }
   if (list.length === 0) {
     return <Shimmer />;
   }
@@ -61,7 +65,9 @@ const Body = () => {
       </button>
       <div className="restaurant-container">
         {filteredList.map((rest) => (
+          <Link key={rest.id} to = {"/menu/"+rest.id}>
           <Card key={rest.id} resData={rest} />
+          </Link>
         ))}
       </div>
     </div>

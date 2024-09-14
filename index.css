@@ -11,6 +11,18 @@
     display: flex;
 }
 
+.header a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.header a:visited {
+    text-decoration: none;
+    color: rgb(6, 6, 19);
+    cursor: pointer;
+}
+
 .logo {
     height: 100px;
     width: 150px;
@@ -41,6 +53,11 @@
     box-shadow: 5px 5px #ffffff;
     margin:5px;
     padding:6px;
+}
+.restaurant-container a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
 }
 .card:hover {
     cursor: pointer;
@@ -92,4 +109,77 @@
     box-shadow: 5px 5px #ffffff;
     margin:5px;
     padding:6px;
+}
+.error-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: url("https://miro.medium.com/v2/resize:fit:924/1*ZvwdIQkolJ2z1MILFrQjOQ.jpeg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:900px;
+    color:rgb(3, 0, 0);
+}
+.error-container .content {
+    font-size:xx-large;
+}
+.menu-container {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.021);
+    flex-direction:row-reverse;
+    justify-content: space-between;
+    display: flex;
+    margin: 5px 10%;
+    width:70%;
+}
+.menu-container:hover {
+    border: 1px double #1b1717;
+    box-shadow: 5px 5px #e9e5e5;
+}
+.menu-container div{
+   padding:3px
+}
+
+.menu-container img{
+    border: 1px double #ddd3d3;
+    border-radius: 5px;
+ }
+ .user-card {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.021);
+    flex-direction:row-reverse;
+    justify-content: space-between;
+    display: flex;
+    margin: 5px 10%;
+    padding: 20px;
+    width:70%;
+    min-height: 100px;
+ }
+ .user-card div{
+    padding:3px
+ }
+ .user-card div img{ 
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    height:200px;
+ }
+ .circle-red {
+    border: 5px solid red;
+    background-color: rgba(255, 0, 0, 0.658);
+    border-radius: 50%;
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+}
+.circle-green {
+    border: 5px solid green;
+    background-color: rgba(17, 156, 63, 0.918);
+    border-radius: 50%;
+    width: 21px;
+    height: 21px;
+    display: inline-block;
 }
