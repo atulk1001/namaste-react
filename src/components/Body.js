@@ -38,32 +38,32 @@ const Body = () => {
     return <Shimmer />;
   }
   return (
-    <div className="body">
+    <div className="flex flex-wrap justify-center">
       <input
-        className="search-bar"
+        className="p-3 m-4 w-96 border-slate-200 bg-gray-100 text-black-500 rounded-sm hover:font-semibold"
         type="text"
         value={searchText}
+        placeholder="KFC"
         onChange={(e) => setSearchText(e.target.value)}
       />
       <button
-        className="filter-btn"
+        className="px-4 bg-gray-300 py-2 m-4 rounded-sm hover:shadow-md hover:bg-slate-400 hover:font-semibold"
         onClick={() => {
           let filteredData = list.filter((rest) =>
             rest.name.toLowerCase().includes(searchText.toLowerCase())
           );
-          console.log(filteredData)
           setFilteredList(filteredData);
         }}
       >
         Search
       </button>
-      <button className="filter-btn" onClick={filter}>
-        Top Rated Restaurants
+      <button className="px-5 bg-gray-300 py-2 m-4 rounded-sm hover:shadow-md hover:bg-slate-400 hover:font-semibold" onClick={filter}>
+        Top Rated
       </button>
-      <button className="filter-btn" onClick={clearFilter}>
+      <button className="px-5 bg-gray-300 py-2 m-4 rounded-sm hover:shadow-md hover:bg-slate-400 hover:font-semibold" onClick={clearFilter}>
         Clear Filter
       </button>
-      <div className="restaurant-container">
+      <div className="flex justify-center flex-wrap">
         {filteredList.map((rest) => (
           <Link key={rest.id} to = {"/menu/"+rest.id}>
           <Card key={rest.id} resData={rest} />
