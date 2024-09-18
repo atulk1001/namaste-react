@@ -1,15 +1,17 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext} from "react";
 import {Link} from "react-router-dom";
 import Card, {withPromotedLabel} from "./Card";
 import Shimmer from "./Shimmer";
 import { API_URL } from "../utils/constants";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import UserContext from "../utils/UserContext";
 
 const Body = () => {
   const [list, setList] = useState(() => []);
   const [filteredList, setFilteredList] = useState(() => []);
   const [searchText, setSearchText] = useState("");
   const PromotedLabelComponent = withPromotedLabel(Card);
+  const {loggedInUser,setUserName} = useContext(UserContext);
   async function fetchData() {
     let data = await fetch(API_URL);
     let json = await data.json();
@@ -65,6 +67,13 @@ const Body = () => {
       <button className="px-5 bg-gray-300 py-2 m-4 rounded-sm hover:shadow-md hover:bg-slate-400 hover:font-semibold" onClick={clearFilter}>
         Clear Filter
       </button>
+      <input
+        className="p-3 m-4 w-48 border-slate-200 bg-gray-100 text-black-500 rounded-sm hover:font-semibold lg:w-96"
+        type="text"
+        placeholder="User Name"
+        value={loggedInUser}
+        onChange={(e)=> setUserName(e.target.value)}
+      />
       <div className="flex justify-center flex-wrap">
         {filteredList.map((rest) => (
           <Link key={rest.id} to = {"/menu/"+rest.id}>
