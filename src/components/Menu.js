@@ -12,7 +12,6 @@ export default Menu = () => {
   let categories = new Set()
   item && item[0].menus.forEach((ele) => categories.add(ele.category));
   let listOfCat = [...categories];
-  console.log(listOfCat);
   return item === null ? (
     <Shimmer />
   ) : (

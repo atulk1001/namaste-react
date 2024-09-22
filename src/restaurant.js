@@ -6,8 +6,11 @@ import Contact from "./components/Contact";
 import ErrorPage from "./components/ErrorPage";
 import Menu from "./components/Menu";
 import Shimmer from "./components/Shimmer";
+import Cart from "./components/Cart";
 import { createBrowserRouter,Outlet,RouterProvider } from "react-router-dom";
 import UserContext from "./utils/UserContext";
+import {Provider} from "react-redux";
+import appStore from "./utils/appStore";
 /*
 * Header
 *   - Logo
@@ -44,13 +47,14 @@ const AppLayout = () => {
     },[]);
 
     return (
-        <UserContext.Provider value={{loggedInUser:userName,setUserName}}>
-        <div className="app">
-                <Header></Header>
-            <Outlet/>
-        </div>
-
-        </UserContext.Provider>
+        <Provider store={appStore}>
+            <UserContext.Provider value={{loggedInUser:userName,setUserName}}>
+            <div className="app">
+                    <Header></Header>
+                <Outlet/>
+            </div>
+            </UserContext.Provider>
+        </Provider>
     );
 };
 const appRouter = createBrowserRouter([
@@ -77,7 +81,11 @@ const appRouter = createBrowserRouter([
             {
                 path:"/grocery",
                 element:<Suspense fallback={<Shimmer/>}><Grocery /></Suspense>
-            }
+            },
+            {
+                path: "/cart",
+                element: <Cart/>
+            },
         ],
         errorElement:<ErrorPage/>
     }
