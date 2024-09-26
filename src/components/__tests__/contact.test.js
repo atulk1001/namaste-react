@@ -18,7 +18,7 @@ test("should have input fields in contact component", () => {
     render(<Contact/>);
     const allInputs = screen.getAllByRole("textbox");
     expect(allInputs.length).toBe(6);
-
+});
 test("should load input in contact component", () => {
     render(<Contact/>);
     const input = screen.getByTestId("email");

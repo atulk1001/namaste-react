@@ -1,9 +1,9 @@
-import { useContext } from "react";
+import React,{ useContext } from "react";
 import UserContext from "../utils/UserContext";
-const Card = (props) => {
-    const data = useContext(UserContext)
-    const { resData } = props;
+const Card = ({resData}) => {
+    const data = useContext(UserContext);
     const { name, cuisine, stars, time, image } = resData;
+    console.log("render ......");
     return (
         <div className="m-4 p-4 w-70 h-96 bg-zinc-100 rounded-lg hover:shadow-xl hover:border-2 border-sky-100">
             <img alt={name} className="w-64 h-60 rounded-lg" src={image}></img>
@@ -28,4 +28,4 @@ export const withPromotedLabel = (Card) => {
         )
     }   
 }
-export default Card;
+export default React.memo(Card);

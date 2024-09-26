@@ -1,11 +1,15 @@
-import { useState } from "react";
+import React, { useMemo } from "react";
 import MenuItem from "./MenuItems";
+const filterMenu = (data,menuList) => {
+  console.log("called filterMenu ...");
+  return menuList.filter((menu) => menu.category === data);
+}
 const RestaurantCategory = ({ data, menuList, show, setShowIndex }) => {
- 
-  let categoryData = menuList.filter((menu) => menu.category === data);
+  let categoryData = useMemo(() => filterMenu(data, menuList), [menuList]);
   const handleClick = () => {
     setShowIndex();
   }
+  console.log("RestaurantCategory rendered ....");
   return (
     <div className="w-4/6 bg-slate-100 p-4 m-3 cursor-pointer" onClick={handleClick}>
       <div className="flex justify-between">
@@ -38,4 +42,4 @@ const RestaurantCategory = ({ data, menuList, show, setShowIndex }) => {
   );
 };
 
-export default RestaurantCategory;
+export default React.memo(RestaurantCategory);

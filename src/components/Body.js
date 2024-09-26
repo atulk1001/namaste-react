@@ -1,17 +1,22 @@
-import React, { useState, useEffect, useContext} from "react";
+import React, { useState, useEffect, useContext,} from "react";
 import {Link} from "react-router-dom";
 import Card, {withPromotedLabel} from "./Card";
 import Shimmer from "./Shimmer";
 import { API_URL } from "../utils/constants";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import Search from "./Search";
 import UserContext from "../utils/UserContext";
+
+const filteredDataM = (list,searchText) =>  {
+  return list.filter((rest) => rest.name.toLowerCase().includes(searchText.toLowerCase()))
+};
 
 const Body = () => {
   const [list, setList] = useState(() => []);
   const [filteredList, setFilteredList] = useState(() => []);
-  const [searchText, setSearchText] = useState("");
-  const PromotedLabelComponent = withPromotedLabel(Card);
+  const PromotedLabelComponent = React.memo(withPromotedLabel(Card));
   const {loggedInUser,setUserName} = useContext(UserContext);
+
   async function fetchData() {
     let data = await fetch(API_URL);
     let json = await data.json();
@@ -19,7 +24,13 @@ const Body = () => {
     setFilteredList(json);
   }
 
+  const clearFilter = () => {
+    setFilteredList(list);
+  };
+
+  
   useEffect(() => {
+    console.log("After mounted");
     fetchData();
   }, []);
 
@@ -28,10 +39,14 @@ const Body = () => {
     setFilteredList(filList);
   };
 
-  const clearFilter = () => {
-    setFilteredList(list);
-    setSearchText("");
-  };
+  const search = (searchText) => {
+    if(!searchText) {
+      return false;
+    }
+    let filteredData = filteredDataM(list,searchText);
+    setFilteredList(filteredData);
+  }
+
   const onlineStatus = useOnlineStatus();
 
   if(onlineStatus === false) {
@@ -40,27 +55,10 @@ const Body = () => {
   if (list.length === 0) {
     return <Shimmer />;
   }
-  
+
   return (
     <div className="flex flex-wrap justify-center">
-      <input
-        className="p-3 m-4 w-48 border-slate-200 bg-gray-100 text-black-500 rounded-sm hover:font-semibold lg:w-96"
-        type="text"
-        value={searchText}
-        placeholder="KFC"
-        onChange={(e) => setSearchText(e.target.value)}
-      />
-      <button
-        className="px-4 bg-gray-300 py-2 m-4 rounded-sm hover:shadow-md hover:bg-slate-400 hover:font-semibold"
-        onClick={() => {
-          let filteredData = list.filter((rest) =>
-            rest.name.toLowerCase().includes(searchText.toLowerCase())
-          );
-          setFilteredList(filteredData);
-        }}
-      >
-        Search
-      </button>
+      <Search searchRestaurant = {(text) => search(text)}/>
       <button className="px-5 bg-gray-300 py-2 m-4 rounded-sm hover:shadow-md hover:bg-slate-400 hover:font-semibold" onClick={filter}>
         Top Rated
       </button>
@@ -85,4 +83,4 @@ const Body = () => {
   );
 };
 
-export default Body;
+export default React.memo(Body);

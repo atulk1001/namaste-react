@@ -1,3 +1,4 @@
+import React from "react";
 import { useDispatch } from "react-redux";
 import { addItem } from "../utils/cartSlice";
 const MenuItem = ({ categoryData }) => {
@@ -38,4 +39,4 @@ const MenuItem = ({ categoryData }) => {
     </div>
   );
 };
-export default MenuItem;
+export default React.memo(MenuItem);

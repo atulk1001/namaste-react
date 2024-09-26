@@ -1,5 +1,7 @@
+import {memo} from "react";
 import UserClass from "./UserClass";
 const User = ({name}) => {
+    console.log("User Component Render ...");
     return (
         <div>
         <div className="mt-10">
@@ -18,4 +20,4 @@ const User = ({name}) => {
         </div>
     )
 }
-export default User;
+export default memo(User);

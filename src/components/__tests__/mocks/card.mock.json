@@ -1,0 +1,651 @@
+{
+    "name": "Meghana Foods",
+    "cuisine": "Biryani, North Indian",
+    "stars": 4,
+    "time": 34,
+    "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/7/22/44a7ef1e-517b-4965-86df-5a3bf454f7e5_690583.jpg",
+    "id": 1,
+    "menus": [
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "best"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "recommended"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "best"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "juice"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "recommended"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "best"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "recommended"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "cake"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "cake"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "cake"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "cake"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "brownie"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "brownie"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "brownie"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "brownie"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "brownie"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "brownie"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "eggs"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "eggs"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "eggs"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "eggs"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "eggs"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "pastries"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "pastries"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "pastries"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "pastries"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "pastries"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "pastries"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "pastries"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "pastries"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "pastries"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "Deserts"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "Deserts"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "Deserts"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "Deserts"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "Deserts"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "Deserts"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "Deserts"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "Deserts"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "Deserts"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "Deserts"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "Sandwiches"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "Sandwiches"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "Sandwiches"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "Sandwiches"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "Sandwiches"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "Sandwiches"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "Sandwiches"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "Sandwiches"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "Sandwiches"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "Sandwiches"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "Sandwiches"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "Sandwiches"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "Sandwiches"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "Sandwiches"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "Sandwiches"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "Sandwiches"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "Combo"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "Combo"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "Combo"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "Combo"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "Combo"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "Combo"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "Combo"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "Combo"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "Cookies"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "Cookies"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "Cookies"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "Cookies"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "Cookies"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "Cookies"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "Cookies"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "Cookies"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "Biscuits"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "Biscuits"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "Biscuits"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "Biscuits"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "Biscuits"
+        },
+        {
+            "name": "Kesar Pista Stick Kulfi",
+            "price": 59.32,
+            "rating": 4.6,
+            "desc": "Revisit childhood with this rich kulfi made with 100% pure milk rabdi slow-churned for hours, loaded with crunchy pista & bits of kesar! serving; 1 serve, serving size :72/70,energy(kcal) :161,carbohydrate(gm):18,protein(gm): 5,dietary fiber(gm) : 0. 3,fat(gm) : 7. 8,allergen :contains milk and tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/f79562c2-641d-4bac-81b3-8b9372e2406b_6daa164d-b390-40ea-8f1f-28367cebd6ec.jpg",
+            "category": "Biscuits"
+        },
+        {
+            "name": "Alphonso Mango Stick Kulfi",
+            "price": 70,
+            "rating": 4.3,
+            "desc": "Enjoy summer-y kulfi made with the king of fruits -- alphonso mango pulp is combines with rich milk rabdi, slow-churned for hours. Serving; 1 serve, serving size :72/70,energy(kcal) :148,carbohydrate(gm):18. 5,protein(gm): 3. 9,dietary fiber(gm) : 0. 3,fat(gm) : 6. 5,allergen :contains milk. May contains traces of tree nuts.",
+            "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/5/21/46a53d18-dc39-49ec-98a7-beaa2de08072_09903fd3-d2bc-4f3d-a0ac-a84d9ee279db.jpg",
+            "category": "Biscuits"
+        }
+    ],
+    "promoted": true
+}
